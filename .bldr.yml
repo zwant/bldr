@@ -1,0 +1,5 @@
+config:
+  compile:
+    cmd: "mvn package"
+  analysis:
+    cmd: "npm install"

@@ -1,0 +1,16 @@
+stages:
+  - compile
+  - analysis
+  - unit-test
+  - package
+  - integration-test
+  - deploy
+
+compoundstages:
+  package:
+    - compile
+    - unit-test
+    - package
+  test:
+    - unit-test
+    - integration-test

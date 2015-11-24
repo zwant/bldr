@@ -1,0 +1,5 @@
+config:
+  test1:
+    cmd: "ls -la"
+  test2:
+    cmd: "kossa"
